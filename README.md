@@ -46,7 +46,7 @@ preprocess_signal.py        → Mean removal + normalization
 fft_analyzer.py             → FFT computation + plots  
 filters.py                  → Digital filters (LPF / HPF / BPF)  
 plot.py                     → Time-domain plots & FFT comparison  
-Final_Project_Group3.py     → Main workflow (run this file)  
+signal_analyzer.py          → Main workflow (run this file)  
 ecg_record100.csv           → ECG dataset  
 0_george_10.csv             → Speech dataset  
 
@@ -97,7 +97,7 @@ plot.py
 - Time-domain waveform plotting
 - FFT overlay and comparison
 
-Final_Project_Group3.py
+signal_analyzer.py
 - Generates synthetic signals
 - Loads ECG and speech CSV files
 - Performs FFT + filtering
