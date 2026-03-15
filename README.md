@@ -62,7 +62,7 @@ pip install numpy scipy matplotlib pandas pyyaml
 Step 2 — Put all .py files and CSV files in the same folder
 
 Step 3 — Run the main project  
-python Final_Project_Group3.py
+signal_analyzer.py
 
 This will produce:
 - Synthetic signal FFT
