@@ -1,6 +1,4 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/M_ou-imR)
-# Signal Processing and Filtering Project
-Group 3 – Final Project (Python)
+# Python-Based Signal Analyzer and Digital Filtering Tool
 
 This project implements a complete digital signal processing workflow, including
 signal generation, preprocessing, FFT analysis, filtering (low-pass, high-pass, band-pass),
@@ -62,7 +60,7 @@ pip install numpy scipy matplotlib pandas pyyaml
 Step 2 — Put all .py files and CSV files in the same folder
 
 Step 3 — Run the main project  
-signal_analyzer.py
+python signal_analyzer.py
 
 This will produce:
 - Synthetic signal FFT
