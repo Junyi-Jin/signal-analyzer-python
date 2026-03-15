@@ -1,0 +1,38 @@
+student:
+  name: "Your Name"
+  id: "251420704"
+
+project:
+  title: "Signal Analysis and Filtering"
+  version: 1
+
+synthetic_signal:
+  duration: 2.0       # seconds
+  fs: 500             # Hz
+  freq: 50            # Hz
+  amplitude: 1.0
+  phase: 0.0
+  noise_std: 0.3      # standard deviation of Gaussian noise
+
+filters:
+  lowpass:
+    cutoff: 40
+    order: 4
+
+  highpass:
+    cutoff: 10
+    order: 4
+
+  bandpass:
+    lowcut: 10
+    highcut: 40
+    order: 4
+
+ecg_signal:
+  filename: "ecg_record100.csv"
+  fs: 360
+  drift_amplitude: 0.3
+  drift_frequency: 0.2
+
+urban_noise:
+  filename: "urban_sound_data_14113-4-0-0.wav"
